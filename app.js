@@ -653,5 +653,7 @@ class Zebra {
         console.log(`Chomp chomp all the ${food}ies.`)
     }
 }
-export default Alligator;
+
+let allison = new Alligator("Allison", "Green", "F", 200, 60, "big", 15);
+let bobby = new Bobcat("Bobby", "grey", "M", 33, 30, 'big', true)
 
